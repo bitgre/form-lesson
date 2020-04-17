@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+input, select {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: .5px solid black;
+    margin-bottom: 20px;
+}
+label {
+    border: none;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #578843;
+    color: #fff;
+    /* top right bottom left*/
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
