@@ -1,7 +1,9 @@
+/* body styles */
 body {
     background: url('bg.jpg') no-repeat;
     background-size: cover;
 }
+/* form styles */
 form {
     display: flex;
     flex-direction: column;
@@ -9,6 +11,7 @@ form {
     margin: auto;
 }
 
+/* input iyo select styles */
 input, select {
     padding: 5px;
     font-size: 20px;
@@ -16,10 +19,12 @@ input, select {
     border: .5px solid black;
     margin-bottom: 20px;
 }
+/* label styles */
 label {
     border: none;
 }
 
+/* button styles */
 button {
     font-size: 15px;
     font-weight: bold;
